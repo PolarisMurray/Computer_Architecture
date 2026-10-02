@@ -1,0 +1,6 @@
+iverilog -g2012 color_wheel_tb.sv
+vvp a.out
+VCD info: dumpfile color_wheel.vcd opened for output.
+red = 250, green = 0, blue = 0
+passed, back to red after 1 loop
+color_wheel_tb.sv:52: $finish called at 120000016000 (1ps)
